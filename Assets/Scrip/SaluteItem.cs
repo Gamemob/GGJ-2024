@@ -6,6 +6,7 @@ public class SaluteItem : MonoBehaviour
 {
     private Rigidbody2D SaItemRb;
     public float Speed;
+    public Vector2 FireDirection;
     private SpriteRenderer SaluteRen;
     public bag bag;
     // Start is called before the first frame update
@@ -30,7 +31,7 @@ public class SaluteItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       SaItemRb.AddForce(Speed * new Vector2(1, 0.7f), ForceMode2D.Impulse);
+       SaItemRb.AddForce(Speed * FireDirection.normalized, ForceMode2D.Impulse);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
