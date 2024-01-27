@@ -30,7 +30,7 @@ public class ItemManager : MonoBehaviour
     void Update()
     {
         RendomItem();
-        print(itemsGenerate[0]);
+        //print(itemsGenerate[0]);
     }
 
     private void OnDisable()
