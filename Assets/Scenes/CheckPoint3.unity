@@ -1196,7 +1196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bag: {fileID: 11400000, guid: 8dd9c164603f8e04f94c47dac507b473, type: 2}
-  changeBackTime: 0
+  changeBackTime: 3.5
 --- !u!61 &695614472
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1233,7 +1233,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 4}
+    oldSize: {x: 3.01, y: 3}
     newSize: {x: 5, y: 4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1283,7 +1283,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 30
-  m_Sprite: {fileID: 21300000, guid: 2e393fc93c9dc6b41ae731779023d78a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7604476e9ac058d44a47f2a1cf314b37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1554,7 +1554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bag: {fileID: 11400000, guid: 8dd9c164603f8e04f94c47dac507b473, type: 2}
-  changeBackTime: 0
+  changeBackTime: 3.5
 --- !u!61 &754827468
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1587,18 +1587,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.02620548, y: 0.01310274}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 4}
+    oldSize: {x: 3.01, y: 3}
     newSize: {x: 2.11, y: 2.12}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 1.1614224, y: 1.1352167}
   m_EdgeRadius: 0
 --- !u!212 &754827469
 SpriteRenderer:
@@ -1641,7 +1641,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 30
-  m_Sprite: {fileID: 21300000, guid: 2e393fc93c9dc6b41ae731779023d78a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7604476e9ac058d44a47f2a1cf314b37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1727,7 +1727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bag: {fileID: 11400000, guid: 8dd9c164603f8e04f94c47dac507b473, type: 2}
-  changeBackTime: 0
+  changeBackTime: 3.5
 --- !u!61 &762271806
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1764,7 +1764,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 4}
+    oldSize: {x: 3.01, y: 3}
     newSize: {x: 5, y: 4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1814,7 +1814,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 30
-  m_Sprite: {fileID: 21300000, guid: 2e393fc93c9dc6b41ae731779023d78a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7604476e9ac058d44a47f2a1cf314b37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1889,7 +1889,7 @@ MonoBehaviour:
   - {fileID: 3561141273651261093, guid: 8f348246c8071f44f83e37fb87f75b80, type: 3}
   - {fileID: 9168153426761076120, guid: eca6756ed8412b048b83ae351d029f91, type: 3}
   randomCd: 3
-  guankaNum: 2
+  guankaNum: 0
   haveEmpty: 0
 --- !u!1 &846693398
 GameObject:
@@ -2302,7 +2302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bag: {fileID: 11400000, guid: 8dd9c164603f8e04f94c47dac507b473, type: 2}
-  changeBackTime: 0
+  changeBackTime: 3.5
 --- !u!61 &1040537784
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2339,7 +2339,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 4}
+    oldSize: {x: 3.01, y: 3}
     newSize: {x: 5, y: 4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2389,7 +2389,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 30
-  m_Sprite: {fileID: 21300000, guid: 2e393fc93c9dc6b41ae731779023d78a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7604476e9ac058d44a47f2a1cf314b37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2596,6 +2596,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1810775009}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1372975974 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1368123796490551987, guid: 793f15184c40d2644b6741e3418882fd, type: 3}
+  m_PrefabInstance: {fileID: 8960315703988315706}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1425673468
 GameObject:
   m_ObjectHideFlags: 0
@@ -2705,7 +2710,7 @@ MonoBehaviour:
   SaluteGenerateTrans: {fileID: 2011056975}
   generateNum: 
   waitForlunch: 2
-  animator: {fileID: 0}
+  animator: {fileID: 1372975974}
 --- !u!212 &1670016885
 SpriteRenderer:
   m_ObjectHideFlags: 0
