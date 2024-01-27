@@ -6,19 +6,27 @@ public class Scene_Manager : MonoBehaviour
 {
    public void ClickLoad(int num)
     {
+        AudioManager.Instance.PlaySFX("Bo1");
         SceneManager.LoadScene(num);
     }
     public void Restart()
     {
+        AudioManager.Instance.PlaySFX("Bo1");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     public void Quit()
     {
+        AudioManager.Instance.PlaySFX("Bo1");
         Application.Quit();
     }
     public void BacktoMenu()
     {
+        AudioManager.Instance.PlaySFX("Bo1");
         SceneManager.LoadScene("Menu");
+    }
+    public void BottomSFX()
+    {
+        AudioManager.Instance.PlaySFX("Bo1");
     }
 
 }
