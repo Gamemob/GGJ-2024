@@ -9,6 +9,7 @@ public class ItemButton : MonoBehaviour
     public float deleteTime;//激活多久之后消失
     public itemForBag thisItem;
     public GameObject itemOnConveyor;
+    public int  IdexOnButton;//button的数值
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class ItemButton : MonoBehaviour
     IEnumerator deleteThisItem()
     {
         yield return new WaitForSeconds(deleteTime);
+        ItemManager.itemsGenerate[IdexOnButton] = false;
         Destroy(this.gameObject);
     }
     // Update is called once per frame
@@ -42,6 +44,7 @@ public class ItemButton : MonoBehaviour
         {
             itemGenerateManager.Instance.generateNum.Add(itemGenerateManager.Instance.generateNum[itemGenerateManager.Instance.generateNum.Count-1]+1);//添加之前去判断生成哪个数
         }
+        ItemManager.itemsGenerate[IdexOnButton] = false;
         Destroy(this.gameObject);
     }
 }
