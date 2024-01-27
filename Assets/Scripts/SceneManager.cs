@@ -21,7 +21,7 @@ public class Scene_Manager : MonoBehaviour
     }
     public void BacktoMenu()
     {
-        AudioManager.Instance.PlaySFX("Bo1");
+        //AudioManager.Instance.PlaySFX("Bo1");
         SceneManager.LoadScene("Menu");
     }
     public void BottomSFX()

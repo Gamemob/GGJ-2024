@@ -32,7 +32,12 @@ public class ItemManager : MonoBehaviour
         RendomItem();
         print(itemsGenerate[0]);
     }
-   void  RendomItem()//随机道具(BUTTON)的生成
+
+    private void OnDisable()
+    {
+        itemsGenerate.Clear();
+    }
+    void  RendomItem()//随机道具(BUTTON)的生成
     {
         if (guankaNum == 0)
         {
