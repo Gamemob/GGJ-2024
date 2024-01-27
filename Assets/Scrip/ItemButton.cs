@@ -33,7 +33,7 @@ public class ItemButton : MonoBehaviour
     }
     public void addToBag()
     {
-        //AudioManager.Instance.PlaySFX("Bo");
+        AudioManager.Instance.PlaySFX("Bo");
         bag.items.Add(thisItem);//添加此物体到对象
         //生成道具到传送带（将这个Itemforbag的数据传送给物体）
         GameObject.Instantiate(itemOnConveyor, GameObject.FindGameObjectWithTag("itemGeneratePoint").transform.position, Quaternion.identity);
