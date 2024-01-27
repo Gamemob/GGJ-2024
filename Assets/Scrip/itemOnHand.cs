@@ -6,7 +6,7 @@ public class itemOnHand : MonoBehaviour
 {
     private SpriteRenderer itemRender;
     public bag bag;
-    
+    public float changeBackTime;//»Ö¸´Ô­À´µÄÍ¼Æ¬
     // Start is called before the first frame update
     void Start()
     {
@@ -50,5 +50,11 @@ public class itemOnHand : MonoBehaviour
             AudioManager.Instance.PlaySFX("Em");
         }
             LaughValue.Instance.CurrentLaughtValue += bag.items[Idex].ChangeNum;
+        StartCoroutine("chagneBackSprite");
+    }
+    IEnumerator chagneBackSprite()
+    {
+        yield return new WaitForSeconds(changeBackTime);
+        itemRender.sprite = RotateBallManager.Instance.itemNumalBall;
     }
 }
