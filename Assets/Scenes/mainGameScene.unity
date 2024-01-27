@@ -1456,6 +1456,7 @@ MonoBehaviour:
   SaluteGenerateTrans: {fileID: 1840260178}
   generateNum: 
   waitForlunch: 3
+  animator: {fileID: 0}
 --- !u!1 &1085447700
 GameObject:
   m_ObjectHideFlags: 0
