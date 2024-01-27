@@ -23,8 +23,7 @@ public class LaughValue : MonoBehaviour
     }
     void Start()
     {
-        CurrentLaughtValue = MaxLaughtValue;
-        StartCoroutine(LaughValueDown());
+        //StartCoroutine(LaughValueDown());
     }
 
     // Update is called once per frame

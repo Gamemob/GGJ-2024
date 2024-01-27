@@ -7,6 +7,10 @@ TagManager:
   - itemManager
   - itemGeneratePoint
   - deleteItemconveyor
+  - saluteGeneratePoint
+  - ItemOnHand
+  - SaluteItem
+  - HandColli
   layers:
   - Default
   - TransparentFX

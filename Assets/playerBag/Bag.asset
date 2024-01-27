@@ -13,16 +13,7 @@ MonoBehaviour:
   m_Name: Bag
   m_EditorClassIdentifier: 
   items:
-  - {fileID: 11400000, guid: 8a828253fa72f244e9ac31fb1283607a, type: 2}
-  - {fileID: 11400000, guid: 7deee206afef76c449aff898ca5b80bc, type: 2}
+  - {fileID: 11400000, guid: d0cd9942311108e46aac8b9c34afe062, type: 2}
   - {fileID: 11400000, guid: 623d09fdd8ca424489fdcc0d9c4bf564, type: 2}
+  - {fileID: 11400000, guid: d0cd9942311108e46aac8b9c34afe062, type: 2}
   - {fileID: 11400000, guid: 623d09fdd8ca424489fdcc0d9c4bf564, type: 2}
-  - {fileID: 11400000, guid: 8a828253fa72f244e9ac31fb1283607a, type: 2}
-  - {fileID: 11400000, guid: 8a828253fa72f244e9ac31fb1283607a, type: 2}
-  - {fileID: 11400000, guid: 623d09fdd8ca424489fdcc0d9c4bf564, type: 2}
-  - {fileID: 11400000, guid: 82b9e5b722648164fa23f7a1381b37e5, type: 2}
-  - {fileID: 11400000, guid: 623d09fdd8ca424489fdcc0d9c4bf564, type: 2}
-  - {fileID: 11400000, guid: 7deee206afef76c449aff898ca5b80bc, type: 2}
-  - {fileID: 11400000, guid: 7c419082801793045b3014e228cb85de, type: 2}
-  - {fileID: 11400000, guid: 623d09fdd8ca424489fdcc0d9c4bf564, type: 2}
-  - {fileID: 11400000, guid: 7deee206afef76c449aff898ca5b80bc, type: 2}

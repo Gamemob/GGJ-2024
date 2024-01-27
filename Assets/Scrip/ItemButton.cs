@@ -34,7 +34,14 @@ public class ItemButton : MonoBehaviour
         bag.items.Add(thisItem);//添加此物体到对象
         //生成道具到传送带（将这个Itemforbag的数据传送给物体）
         GameObject.Instantiate(itemOnConveyor, GameObject.FindGameObjectWithTag("itemGeneratePoint").transform.position, Quaternion.identity);
-        itemGenerateManager.Instance.stageNum++;
+        if (itemGenerateManager.Instance.generateNum.Count == 0)//数目为0，则为第一次生成
+        {
+            itemGenerateManager.Instance.generateNum.Add(1);
+        }
+        else//数目不为零则不为第一次生成
+        {
+            itemGenerateManager.Instance.generateNum.Add(itemGenerateManager.Instance.generateNum[itemGenerateManager.Instance.generateNum.Count-1]+1);//添加之前去判断生成哪个数
+        }
         Destroy(this.gameObject);
     }
 }

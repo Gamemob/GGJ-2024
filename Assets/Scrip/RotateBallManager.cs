@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class itemGenerateManager : MonoBehaviour
+public class RotateBallManager : MonoBehaviour
 {
-    public static itemGenerateManager Instance;
-    public List<int> generateNum=new List<int>();//记录要获取bag里的哪个道具
+    public static RotateBallManager Instance;
+    public float ItemEffectTime;
+    public List<int> generateNum = new List<int>();//判断生成到了第几个item的数字
     // Start is called before the first frame update
     void Start()
     {
         
     }
-
     private void Awake()
     {
         if (Instance != null)

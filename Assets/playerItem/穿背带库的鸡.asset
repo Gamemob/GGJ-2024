@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9446aec1360c41748919930fc7ab6c9c, type: 3}
-  m_Name: item2
+  m_Name: "\u7A7F\u80CC\u5E26\u5E93\u7684\u9E21"
   m_EditorClassIdentifier: 
-  ItemSprite: {fileID: 21300000, guid: c70c82a4f9dafb84b90f9ffff3b59504, type: 3}
-  ChangeNum: 0
+  ItemSprite: {fileID: 271764405, guid: de037b0beff6d8342b88e84efa60c43d, type: 3}
+  ChangeNum: 50

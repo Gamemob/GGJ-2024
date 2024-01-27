@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9446aec1360c41748919930fc7ab6c9c, type: 3}
-  m_Name: item3
+  m_Name: "\u7CBE\u7075\u7403"
   m_EditorClassIdentifier: 
   ItemSprite: {fileID: 21300000, guid: 62355d7a1bb42614598b77181ed2092c, type: 3}
-  ChangeNum: 0
+  ChangeNum: -10
