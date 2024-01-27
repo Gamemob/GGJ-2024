@@ -43,11 +43,11 @@ public class itemOnHand : MonoBehaviour
         yield return new WaitForSeconds(RotateBallManager.Instance.ItemEffectTime);
         if (bag.items[Idex].ChangeNum > 0)
         {
-            AudioManager.Instance.PlaySFX("La");
+            //AudioManager.Instance.PlaySFX("La");
         }
         else if (bag.items[Idex].ChangeNum < 0)
         {
-            AudioManager.Instance.PlaySFX("Em");
+            //AudioManager.Instance.PlaySFX("Em");
         }
             LaughValue.Instance.CurrentLaughtValue += bag.items[Idex].ChangeNum;
         StartCoroutine("chagneBackSprite");
