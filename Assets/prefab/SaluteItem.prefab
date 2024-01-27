@@ -172,5 +172,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 1
-  FireDirection: {x: 1, y: 1}
+  FireDirection: {x: 1, y: 0.5}
   bag: {fileID: 11400000, guid: 8dd9c164603f8e04f94c47dac507b473, type: 2}
