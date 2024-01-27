@@ -12,14 +12,11 @@ public class LaughValue : MonoBehaviour
 
     private void Awake()
     {
-        if(Instance == null)
+        if(Instance !=null)
         {
-            Instance = this;
+            Destroy(Instance);
         }
-        else
-        {
-            Destroy(this.gameObject);
-        }
+        Instance = this;
     }
     void Start()
     {
