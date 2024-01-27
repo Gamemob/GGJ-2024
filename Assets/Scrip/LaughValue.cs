@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class LaughValue : MonoBehaviour
 {
@@ -11,34 +10,21 @@ public class LaughValue : MonoBehaviour
     public float CurrentLaughtValue;
     public float LaughValuedis;
 
-    public Scene_Manager sceneManager;
-
     private void Awake()
     {
-        if(Instance == null)
+        if(Instance !=null)
         {
-            Instance = this;
+            Destroy(Instance);
         }
-        else
-        {
-            Destroy(this.gameObject);
-        }
-
-        CurrentLaughtValue = 100;
+        Instance = this;
     }
     void Start()
     {
-        sceneManager = GameObject.Find("SceneManager").GetComponent<Scene_Manager>();
         StartCoroutine(LaughValueDown());
     }
     private void Update()
     {
-      if(CurrentLaughtValue >= MaxLaughtValue)
-        {
-            
-            Debug.Log("Win");
-            //sceneManager.BacktoMenu();
-        }
+      
     }
     // Update is called once per frame
     IEnumerator LaughValueDown()

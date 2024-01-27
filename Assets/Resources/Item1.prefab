@@ -29,7 +29,7 @@ RectTransform:
   m_GameObject: {fileID: 9156393443104868522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1269093, y: 5.226492, z: 1.7336}
+  m_LocalScale: {x: 0.6288605, y: 2.9165916, z: 0.9674182}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -149,3 +149,4 @@ MonoBehaviour:
   deleteTime: 6
   thisItem: {fileID: 11400000, guid: 82b9e5b722648164fa23f7a1381b37e5, type: 2}
   itemOnConveyor: {fileID: 1881215645306974336, guid: 1a9926ac21c045248902d264e4e2b718, type: 3}
+  IdexOnButton: 0
