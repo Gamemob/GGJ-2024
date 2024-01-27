@@ -32,6 +32,11 @@ public class RotateBall : MonoBehaviour
 
     private void Update()
     {
+        if (Time.timeScale == 0)//ÔÝÍ£
+        {
+            return;
+        }
+
         if (transforms[0].tag == "test" && (Positions[0] == (Vector2)transforms[0].position)&&k == 0) 
         {
             k = 1;

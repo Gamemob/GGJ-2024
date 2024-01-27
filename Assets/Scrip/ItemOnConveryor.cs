@@ -24,6 +24,10 @@ public class ItemOnConveryor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Time.timeScale == 0)
+        {
+            return;
+        }
         this.transform.position = Vector3.MoveTowards(this.transform.position,GameObject.FindGameObjectWithTag("deleteItemconveyor").transform.position,moveSpeed);
     }
     private void OnTriggerEnter2D(Collider2D collision)
