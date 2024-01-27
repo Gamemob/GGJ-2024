@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9446aec1360c41748919930fc7ab6c9c, type: 3}
   m_Name: "\u94C5\u7403"
   m_EditorClassIdentifier: 
-  ItemSprite: {fileID: 21300000, guid: 5504750570a039d4ea0aa9080c5b47e0, type: 3}
+  ItemSprite: {fileID: 21300000, guid: 8a71adaca77a49d46a208bd7b639d1ed, type: 3}
   ChangeNum: 10
