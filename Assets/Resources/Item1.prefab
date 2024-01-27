@@ -146,6 +146,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bag: {fileID: 11400000, guid: 8dd9c164603f8e04f94c47dac507b473, type: 2}
-  deleteTime: 10
+  deleteTime: 6
   thisItem: {fileID: 11400000, guid: 82b9e5b722648164fa23f7a1381b37e5, type: 2}
   itemOnConveyor: {fileID: 1881215645306974336, guid: 1a9926ac21c045248902d264e4e2b718, type: 3}

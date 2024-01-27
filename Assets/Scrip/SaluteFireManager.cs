@@ -39,7 +39,7 @@ public class SaluteFireManager : MonoBehaviour
     IEnumerator WaitForLunch()
     {
         yield return  new WaitForSeconds(waitForlunch);
-        AudioManager.Instance.PlaySFX("Pao");
+        //AudioManager.Instance.PlaySFX("Pao");
         GameObject.Instantiate(Instance.itemOnSalute, Instance.SaluteGenerateTrans.position, Quaternion.identity);
     }
 }

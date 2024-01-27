@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: "\u82F9\u679C"
   m_EditorClassIdentifier: 
   ItemSprite: {fileID: 21300000, guid: c70c82a4f9dafb84b90f9ffff3b59504, type: 3}
-  ChangeNum: -5
+  ChangeNum: -10

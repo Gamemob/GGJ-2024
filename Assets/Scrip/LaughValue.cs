@@ -23,15 +23,19 @@ public class LaughValue : MonoBehaviour
     }
     void Start()
     {
-        //StartCoroutine(LaughValueDown());
+        StartCoroutine(LaughValueDown());
     }
-
-    // Update is called once per frame
-   IEnumerator LaughValueDown()
+    private void Update()
     {
-        while(true)
+      
+    }
+    // Update is called once per frame
+    IEnumerator LaughValueDown()
+    {
+        while (true)
         {
-            if(CurrentLaughtValue - LaughValuedis >= 0)
+            yield return new WaitForSeconds(1.0f);
+            if (CurrentLaughtValue - LaughValuedis >= 0)
             {
                 CurrentLaughtValue -= LaughValuedis;
             }
@@ -39,9 +43,7 @@ public class LaughValue : MonoBehaviour
             {
                 CurrentLaughtValue = 0;
             }
-            
-            yield return new WaitForSeconds(1.0f);
         }
-        
+       
     }
 }
