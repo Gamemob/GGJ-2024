@@ -9,6 +9,8 @@ public class SaluteFireManager : MonoBehaviour
     public Transform SaluteGenerateTrans;
     public List<int> generateNum = new List<int>();//判断生成到了第几个item的数字
     public float waitForlunch;
+
+    public Animator animator;
     //public Vector2 Direction;
 
 
@@ -24,6 +26,8 @@ public class SaluteFireManager : MonoBehaviour
             Destroy(Instance);
         }
         Instance = this;
+
+        animator = GetComponent<Animator>();
     }
     // Update is called once per frame
     void Update()
@@ -40,6 +44,7 @@ public class SaluteFireManager : MonoBehaviour
     {
         yield return  new WaitForSeconds(waitForlunch);
         //AudioManager.Instance.PlaySFX("Pao");
+        animator.SetTrigger("Fire");
         GameObject.Instantiate(Instance.itemOnSalute, Instance.SaluteGenerateTrans.position, Quaternion.identity);
     }
 }

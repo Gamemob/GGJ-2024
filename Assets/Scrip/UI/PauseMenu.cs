@@ -5,6 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape)&&Time.timeScale == 0)
+        {
+            Resume();
+        }
+    }
     public void Resume()
     {
         this.gameObject.SetActive(false);
