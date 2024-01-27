@@ -7,6 +7,7 @@ public class RotateBallManager : MonoBehaviour
     public static RotateBallManager Instance;
     public float ItemEffectTime;
     public List<int> generateNum = new List<int>();//判断生成到了第几个item的数字
+    public Sprite itemNumalBall;
     // Start is called before the first frame update
     void Start()
     {

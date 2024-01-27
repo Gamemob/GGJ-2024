@@ -20,7 +20,6 @@ public class ItemOnConveryor : MonoBehaviour
         }
         else if(itemGenerateManager.Instance.generateNum.Count >1)//不止一个，则通过第二个元素赋值
         {
-            print(itemGenerateManager.Instance.generateNum[1]);
             itemRender.sprite = bag.items[itemGenerateManager.Instance.generateNum[1] - 1].ItemSprite;//根据第二个赋值元素
             itemGenerateManager.Instance.generateNum[0] = itemGenerateManager.Instance.generateNum[1];//先把第二个赋值给第一个
             itemGenerateManager.Instance.generateNum.RemoveAt(1);//再移除第二个元素
@@ -51,8 +50,6 @@ public class ItemOnConveryor : MonoBehaviour
             }
             SaluteFireManager.Instance.Fire();//这个物体单例了所有不用再static了
             Destroy(this.gameObject);
-
-
         }
     }
 }

@@ -6,7 +6,7 @@ public class itemOnHand : MonoBehaviour
 {
     private SpriteRenderer itemRender;
     public bag bag;
-    
+    public float changeBackTime;//恢复原来的图片
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +30,6 @@ public class itemOnHand : MonoBehaviour
             }
             else if (RotateBallManager.Instance.generateNum.Count > 1)//不止一个，则通过第二个元素赋值
             {
-                print(RotateBallManager.Instance.generateNum[1]);
                 itemRender.sprite = bag.items[RotateBallManager.Instance.generateNum[1] - 1].ItemSprite;//根据第二个赋值元素
                 StartCoroutine("ItemEffect",RotateBallManager.Instance.generateNum[1] - 1);//道具生效的携程
                 RotateBallManager.Instance.generateNum[0] = RotateBallManager.Instance.generateNum[1];//先把第二个赋值给第一个
@@ -42,6 +41,20 @@ public class itemOnHand : MonoBehaviour
     IEnumerator ItemEffect(int Idex)
     {
         yield return new WaitForSeconds(RotateBallManager.Instance.ItemEffectTime);
-        LaughValue.Instance.CurrentLaughtValue += bag.items[Idex].ChangeNum;
+        if (bag.items[Idex].ChangeNum > 0)
+        {
+            AudioManager.Instance.PlaySFX("La");
+        }
+        else if (bag.items[Idex].ChangeNum < 0)
+        {
+            AudioManager.Instance.PlaySFX("Em");
+        }
+            LaughValue.Instance.CurrentLaughtValue += bag.items[Idex].ChangeNum;
+        StartCoroutine("chagneBackSprite");
+    }
+    IEnumerator chagneBackSprite()
+    {
+        yield return new WaitForSeconds(changeBackTime);
+        itemRender.sprite = RotateBallManager.Instance.itemNumalBall;
     }
 }
