@@ -37,7 +37,7 @@ public class LaughValue : MonoBehaviour
         {
             
             Debug.Log("Win");
-            sceneManager.BacktoMenu();
+            //sceneManager.BacktoMenu();
         }
     }
     // Update is called once per frame
