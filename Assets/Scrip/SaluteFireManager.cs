@@ -42,6 +42,7 @@ public class SaluteFireManager : MonoBehaviour
     }
     IEnumerator WaitForLunch()
     {
+        AudioManager.Instance.PlaySFX("Xu");
         yield return  new WaitForSeconds(waitForlunch);
         //AudioManager.Instance.PlaySFX("Pao");
         animator.SetTrigger("Fire");
