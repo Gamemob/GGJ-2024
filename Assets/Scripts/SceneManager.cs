@@ -28,5 +28,9 @@ public class Scene_Manager : MonoBehaviour
     {
         AudioManager.Instance.PlaySFX("Bo1");
     }
+    public void ClickNext()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+    }
 
 }
