@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+    public bag clearBag;
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape)&&Time.timeScale == 0)
@@ -28,5 +29,9 @@ public class PauseMenu : MonoBehaviour
     public void back()
     {
         Scene_Manager.Instance.BacktoMenu();
+    }
+    public void ClearBag()
+    {
+        clearBag.items.Clear();
     }
 }

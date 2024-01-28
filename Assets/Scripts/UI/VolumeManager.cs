@@ -7,6 +7,7 @@ public class VolumeManager : MonoBehaviour
 {
     public Slider _musicSlider, _SFXSlider;
     public Volume_Manager volumeManager;
+    public bag bag;
     private void Update()
     {
         volumeManager.musicVolume = _musicSlider.value;
@@ -34,5 +35,9 @@ public class VolumeManager : MonoBehaviour
     public void SFXVolume()
     {
         AudioManager.Instance.SFXVolume(_SFXSlider.value);
+    }
+    public void clearBag()
+    {
+        bag.items.Clear();
     }
 }
