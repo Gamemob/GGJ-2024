@@ -662,10 +662,6 @@ MonoBehaviour:
   MusicSounds:
   - name: title
     clip: {fileID: 8300000, guid: cb7eb6d0778034b4faaa8a8f337eb94e, type: 3}
-  - name: Victory
-    clip: {fileID: 8300000, guid: d1bcc59c7eedd8b47a93665e0c9ca2d6, type: 3}
-  - name: Defeat
-    clip: {fileID: 8300000, guid: 4e1753f6c25ac104683a5ed37cac6ab5, type: 3}
   SfxSounds:
   - name: Pao
     clip: {fileID: 8300000, guid: cd2a5ec9d54339e4d9c60cbc812b0f60, type: 3}
@@ -677,6 +673,10 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: e6e72fbe7ae72ac418aec65f040971b0, type: 3}
   - name: Bo1
     clip: {fileID: 8300000, guid: fbdca801f16cae74693c498b6b7a8d5f, type: 3}
+  - name: Defeat
+    clip: {fileID: 8300000, guid: 4e1753f6c25ac104683a5ed37cac6ab5, type: 3}
+  - name: Victory
+    clip: {fileID: 8300000, guid: d1bcc59c7eedd8b47a93665e0c9ca2d6, type: 3}
   musicSource: {fileID: 3668255862254438457}
   sfxSource: {fileID: 4587721220037974212}
 --- !u!1 &4511741234361572003

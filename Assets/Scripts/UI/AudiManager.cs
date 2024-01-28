@@ -8,6 +8,7 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance;//¾²Ì¬³ÉÔ± 
     public Sound[] MusicSounds, SfxSounds;
     public AudioSource musicSource, sfxSource;
+    
 /*    public Slider MusicVolume;*/
 
     private void Awake()
@@ -15,28 +16,33 @@ public class AudioManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
             Destroy(gameObject);
         }
     }
+    private void Update()
+    {
+        
+    }
     private void Start()
     {
-        if(SceneManager.GetActiveScene().buildIndex>=0&& SceneManager.GetActiveScene().buildIndex <= 4)
+       if (SceneManager.GetActiveScene().buildIndex == 7)
+        {
+            PlaySFX("Defeat");
+            StopMusic("title");
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 4|| SceneManager.GetActiveScene().buildIndex == 2||SceneManager.GetActiveScene().buildIndex == 6)
+        {
+            PlaySFX("Victory");
+            StopMusic("title");
+        }
+        else
         {
             PlayMusic("title");
-            StopMusic("Defeat");
         }
-        else if (SceneManager.GetActiveScene().buildIndex == 5)
-        {
-            PlayMusic("Defeat");
-        }
-        else if (SceneManager.GetActiveScene().buildIndex == 4)
-        {
-            PlayMusic("Victory");
-        }
+        
         /*MusicVolume.value = musicSource.volume;
         MusicVolume.onValueChanged.AddListener(delegate { VolumeManger(); });*/
     }
