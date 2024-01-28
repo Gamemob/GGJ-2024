@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BottomManager : MonoBehaviour
 {
+
    public void ClickLoad(int num)
     {
         Scene_Manager.Instance.ClickLoad(num);
