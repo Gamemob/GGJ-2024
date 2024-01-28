@@ -43,17 +43,18 @@ public class itemOnHand : MonoBehaviour
     IEnumerator ItemEffect(int Idex)
     {
         yield return new WaitForSeconds(RotateBallManager.Instance.ItemEffectTime);
-     
+        
         if (bag.items[Idex].ChangeNum > 0)
         {   
             sexiangjiAni.SetTrigger("isDong");
             AudioManager.Instance.PlaySFX("La");
+            backGroundManager.Instance.xiaoLe();
         }
         else if (bag.items[Idex].ChangeNum < 0)
         {
             AudioManager.Instance.PlaySFX("Em");
         }
-        if (bag.items[Idex].isSmoke)
+        if (bag.items[Idex].isSmoke&&smoke!=null)
         {
             smoke.gameObject.SetActive(true);
             StartCoroutine("smokeDelete");

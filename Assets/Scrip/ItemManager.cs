@@ -44,15 +44,15 @@ public class ItemManager : MonoBehaviour
         if (guankaNum == 0)
         {
             randomCd -= Time.deltaTime;
-            haveEmpty = false;
-            for (int i = 0; i < 6; i++)
-            {
-                if (itemsGenerate[i] == false)//有一个空的
-                {
-                    haveEmpty = true;
-                    break;
-                }
-            }
+            haveEmpty =true;
+            //for (int i = 0; i < 6; i++)
+            //{
+            //    if (itemsGenerate[i] == false)//有一个空的
+            //    {
+            //        haveEmpty = true;
+            //        break;
+            //    }
+            //}
             if (randomCd < 0 && haveEmpty == true)
             {
                 rendomPosition = Random.Range(1, 7);//生成一到六
