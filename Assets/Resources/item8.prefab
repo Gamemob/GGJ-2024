@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1113870259851301200
+--- !u!1 &6590085721642057839
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,28 +8,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4794834267285415249}
-  - component: {fileID: 1126487660157944763}
-  - component: {fileID: 7848921863929583736}
-  - component: {fileID: 1033781426530008657}
-  - component: {fileID: 5479927729441405023}
+  - component: {fileID: 1443030257078847946}
+  - component: {fileID: 8059612905584492688}
+  - component: {fileID: 5314737441093431392}
+  - component: {fileID: 7409274166372699091}
+  - component: {fileID: 7959627450606792672}
   m_Layer: 5
-  m_Name: Item4
+  m_Name: item8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &4794834267285415249
+--- !u!224 &1443030257078847946
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113870259851301200}
+  m_GameObject: {fileID: 6590085721642057839}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9456804, y: 4.3859706, z: 1.4548035}
+  m_LocalScale: {x: 0.6288605, y: 2.9165916, z: 0.9674182}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -39,21 +39,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1126487660157944763
+--- !u!222 &8059612905584492688
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113870259851301200}
+  m_GameObject: {fileID: 6590085721642057839}
   m_CullTransparentMesh: 1
---- !u!114 &7848921863929583736
+--- !u!114 &5314737441093431392
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113870259851301200}
+  m_GameObject: {fileID: 6590085721642057839}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8a71adaca77a49d46a208bd7b639d1ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a08f6a6f91c6bb24b9da8f16e2b157e0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -77,13 +77,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1033781426530008657
+--- !u!114 &7409274166372699091
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113870259851301200}
+  m_GameObject: {fileID: 6590085721642057839}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -117,11 +117,11 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 7848921863929583736}
+  m_TargetGraphic: {fileID: 5314737441093431392}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5479927729441405023}
+      - m_Target: {fileID: 7959627450606792672}
         m_TargetAssemblyTypeName: Item, Assembly-CSharp
         m_MethodName: addToBag
         m_Mode: 1
@@ -133,13 +133,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5479927729441405023
+--- !u!114 &7959627450606792672
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113870259851301200}
+  m_GameObject: {fileID: 6590085721642057839}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0bb5cec784e3c440810868d349da409, type: 3}
@@ -147,6 +147,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bag: {fileID: 11400000, guid: 8dd9c164603f8e04f94c47dac507b473, type: 2}
   deleteTime: 6
-  thisItem: {fileID: 11400000, guid: 8a828253fa72f244e9ac31fb1283607a, type: 2}
+  thisItem: {fileID: 11400000, guid: 7a677c06856591f4e80a43d035b0fcdf, type: 2}
   itemOnConveyor: {fileID: 1881215645306974336, guid: 1a9926ac21c045248902d264e4e2b718, type: 3}
   IdexOnButton: 0

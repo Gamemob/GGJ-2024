@@ -6,4 +6,5 @@ public class itemForBag : ScriptableObject
 {
     public Sprite ItemSprite;
     public float ChangeNum;//对发笑条的影响
+    public bool isSmoke;
 }

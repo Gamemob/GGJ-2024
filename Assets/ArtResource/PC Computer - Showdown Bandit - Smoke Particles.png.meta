@@ -1,0 +1,677 @@
+fileFormatVersion: 2
+guid: 671d570d04094ab408fef8d88150ecfd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1712
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6a640eb7601904f99c3c2293d0e499
+      internalID: 374292714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_1
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1712
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a54d11a8b8c4ab40bad712c832e3fb4
+      internalID: -135253731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_2
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1712
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7ed9a3580defc4dadba1038f36d103
+      internalID: 1385507853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_3
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1712
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f447c25e855e95c47b8e9275e782dcfe
+      internalID: 95459446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_4
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1712
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0abe91761c4ac4fb924a2726bc542d
+      internalID: 1079425101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1284
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086540bb0c85eb54ab72a79ab311d14c
+      internalID: 1142389385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_6
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1284
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5daa77e1fe04f0042bfc6b15803d46f9
+      internalID: 376847116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_7
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1284
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6975fc81b8138fb4d9dc87429c065641
+      internalID: -1594647211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_8
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1284
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef82c8a1ff5746f4699608d2cf2ed5d4
+      internalID: 899044683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_9
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1284
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef865412113b72942970912ba4e3aa11
+      internalID: -358454001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 856
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57caa3be5b1fdf4186ac5f7b5579639
+      internalID: -417709932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 856
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba17e617d415c2439779b774e9091e2
+      internalID: 1097091886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_12
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 856
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d2a41eb180b7241823f3ff0a498f27
+      internalID: -782647413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_13
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 856
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aba24c5aa868a64b9afa9bbad9326fe
+      internalID: -1760531814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_14
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 856
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912366b8516557e4db089bad82ad8f5b
+      internalID: -635490335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 428
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a332c14d523abc442bc5e33aea5670a5
+      internalID: 1990114603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_16
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 428
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4558fb9632cfb4685c565359b1a063
+      internalID: -1726957445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_17
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 428
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f1257f783b1ad4f98c8629b63505de
+      internalID: 556273954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_18
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 428
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32126bfdfa933c94d9b93a2ed433af91
+      internalID: 1295208092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_19
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 428
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b50efc45478af408ab95f892014444
+      internalID: 2084624182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373918e233994f349adbe32f9fce1452
+      internalID: -1058762784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_21
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14849bfdb088fa84693deae0f4df5faf
+      internalID: 647721719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_22
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 0
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1e4c1dc78fa2147a5fef7ac1d84976
+      internalID: 2011324089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_23
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 0
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a01febae62b80141bb3e44b2150231d
+      internalID: 916504882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Showdown Bandit - Smoke Particles_24
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 0
+        width: 430.4
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a981b98c4c6c74f92e0a136a54006a
+      internalID: 871738823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Showdown Bandit - Smoke Particles_0: 374292714
+      PC Computer - Showdown Bandit - Smoke Particles_1: -135253731
+      PC Computer - Showdown Bandit - Smoke Particles_10: -417709932
+      PC Computer - Showdown Bandit - Smoke Particles_11: 1097091886
+      PC Computer - Showdown Bandit - Smoke Particles_12: -782647413
+      PC Computer - Showdown Bandit - Smoke Particles_13: -1760531814
+      PC Computer - Showdown Bandit - Smoke Particles_14: -635490335
+      PC Computer - Showdown Bandit - Smoke Particles_15: 1990114603
+      PC Computer - Showdown Bandit - Smoke Particles_16: -1726957445
+      PC Computer - Showdown Bandit - Smoke Particles_17: 556273954
+      PC Computer - Showdown Bandit - Smoke Particles_18: 1295208092
+      PC Computer - Showdown Bandit - Smoke Particles_19: 2084624182
+      PC Computer - Showdown Bandit - Smoke Particles_2: 1385507853
+      PC Computer - Showdown Bandit - Smoke Particles_20: -1058762784
+      PC Computer - Showdown Bandit - Smoke Particles_21: 647721719
+      PC Computer - Showdown Bandit - Smoke Particles_22: 2011324089
+      PC Computer - Showdown Bandit - Smoke Particles_23: 916504882
+      PC Computer - Showdown Bandit - Smoke Particles_24: 871738823
+      PC Computer - Showdown Bandit - Smoke Particles_3: 95459446
+      PC Computer - Showdown Bandit - Smoke Particles_4: 1079425101
+      PC Computer - Showdown Bandit - Smoke Particles_5: 1142389385
+      PC Computer - Showdown Bandit - Smoke Particles_6: 376847116
+      PC Computer - Showdown Bandit - Smoke Particles_7: -1594647211
+      PC Computer - Showdown Bandit - Smoke Particles_8: 899044683
+      PC Computer - Showdown Bandit - Smoke Particles_9: -358454001
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
