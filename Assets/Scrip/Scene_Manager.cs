@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class Scene_Manager :baseNomonoManager<Scene_Manager>
+public class Scene_Manager : baseNomonoManager<Scene_Manager>
 {
     public void ClickLoad(int num)
     {

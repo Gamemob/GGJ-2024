@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;//¾²Ì¬³ÉÔ± 
@@ -24,8 +24,19 @@ public class AudioManager : MonoBehaviour
     }
     private void Start()
     {
-        PlayMusic("Theme");
-        Debug.Log(musicSource.volume);
+        if(SceneManager.GetActiveScene().buildIndex>=0&& SceneManager.GetActiveScene().buildIndex <= 4)
+        {
+            PlayMusic("title");
+            StopMusic("Defeat");
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            PlayMusic("Defeat");
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            PlayMusic("Victory");
+        }
         /*MusicVolume.value = musicSource.volume;
         MusicVolume.onValueChanged.AddListener(delegate { VolumeManger(); });*/
     }
@@ -42,6 +53,20 @@ public class AudioManager : MonoBehaviour
         {
             musicSource.clip = s.clip;
             musicSource.Play();
+        }
+    }
+    public void StopMusic(string name)
+    {
+        Sound s = Array.Find(MusicSounds, x => x.name == name);
+        if (s == null)
+        {
+            Debug.Log(1);
+            Debug.Log("Sound Not Found");
+        }
+        else
+        {
+            musicSource.clip = s.clip;
+            musicSource.Stop();
         }
     }
 

@@ -121,9 +121,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Scene_Manager, Assembly-CSharp
-        m_MethodName: BacktoMenu
+      - m_Target: {fileID: 5103681576203983527, guid: 97df993181fde6546b7b5fe3a1a66ac2, type: 3}
+        m_TargetAssemblyTypeName: BottomManager, Assembly-CSharp
+        m_MethodName: BackToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -388,10 +388,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Scene_Manager, Assembly-CSharp
-        m_MethodName: ClickNext
-        m_Mode: 1
+      - m_Target: {fileID: 5103681576203983527, guid: 97df993181fde6546b7b5fe3a1a66ac2, type: 3}
+        m_TargetAssemblyTypeName: BottomManager, Assembly-CSharp
+        m_MethodName: ClickLoad
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -789,8 +789,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Scene_Manager, Assembly-CSharp
+      - m_Target: {fileID: 5103681576203983527, guid: 97df993181fde6546b7b5fe3a1a66ac2, type: 3}
+        m_TargetAssemblyTypeName: BottomManager, Assembly-CSharp
         m_MethodName: Restart
         m_Mode: 1
         m_Arguments:

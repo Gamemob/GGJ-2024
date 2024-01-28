@@ -1852,8 +1852,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8079357152705069599, guid: 3e61711f7e6dae54daa3b38d2848279e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8079357152705069599, guid: 3e61711f7e6dae54daa3b38d2848279e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8079357152705069599, guid: 3e61711f7e6dae54daa3b38d2848279e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 861934970}
+    - target: {fileID: 8079357152705069599, guid: 3e61711f7e6dae54daa3b38d2848279e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8079357152705069599, guid: 3e61711f7e6dae54daa3b38d2848279e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8079357152705069599, guid: 3e61711f7e6dae54daa3b38d2848279e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8079357152705069599, guid: 3e61711f7e6dae54daa3b38d2848279e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6320000756755598498, guid: 3e61711f7e6dae54daa3b38d2848279e, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e61711f7e6dae54daa3b38d2848279e, type: 3}
@@ -3333,6 +3362,18 @@ PrefabInstance:
       propertyPath: sceneEnd
       value: 
       objectReference: {fileID: 861934970}
+    - target: {fileID: 864054001207571493, guid: f49752f5dc5a68e428dc180dd7fa1e95, type: 3}
+      propertyPath: sceneEnd1
+      value: 
+      objectReference: {fileID: 8374418638357021568, guid: 48c6e6ed3f6fb4a44a99f352fd23a373, type: 3}
+    - target: {fileID: 864054001207571493, guid: f49752f5dc5a68e428dc180dd7fa1e95, type: 3}
+      propertyPath: LaughValuedis
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 864054001207571493, guid: f49752f5dc5a68e428dc180dd7fa1e95, type: 3}
+      propertyPath: CurrentLaughtValue
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 1346609712571710487, guid: f49752f5dc5a68e428dc180dd7fa1e95, type: 3}
       propertyPath: m_Name
       value: laughStripe

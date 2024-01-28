@@ -31,7 +31,7 @@ public class LaughValue : MonoBehaviour
       if (CurrentLaughtValue <= 0)
         {
             AudioManager.Instance.PlayMusic("Defeat");
-            sceneNum = 0;
+            sceneNum = 5;
             sceneEnd.gameObject.SetActive(true);
             bag.items.Clear();
         }
