@@ -6,26 +6,27 @@ public class BottomManager : MonoBehaviour
 {
    public void ClickLoad(int num)
     {
-        Scene_Manager.instance.ClickLoad(num);
+        Scene_Manager.Instance.ClickLoad(num);
     }
     public void Restart()
     {
-        Scene_Manager.instance.Restart();
+        Scene_Manager.Instance.Restart();
     }
     public void Quit()
     {
-        Scene_Manager.instance.Quit();
+        Scene_Manager.Instance.Quit();
     }
     public void BackToMenu()
     {
-        Scene_Manager.instance.BacktoMenu(); 
+        Scene_Manager.Instance.BacktoMenu(); 
     }
     public void BottomSFX()
     {
-        Scene_Manager.instance.BottomSFX();
+        Scene_Manager.Instance.BottomSFX();
     }
     public void ClickNext()
     {
-        Scene_Manager.instance.ClickNext();
+        Debug.Log("ClickNext");
+        Scene_Manager.Instance.ClickNext();
     }
 }

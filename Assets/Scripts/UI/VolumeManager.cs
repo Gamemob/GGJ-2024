@@ -6,6 +6,19 @@ using UnityEngine.UI;
 public class VolumeManager : MonoBehaviour
 {
     public Slider _musicSlider, _SFXSlider;
+    public Volume_Manager volumeManager;
+    private void Update()
+    {
+        volumeManager.musicVolume = _musicSlider.value;
+        volumeManager.SFXVolume = _SFXSlider.value;
+        Debug.Log(_musicSlider.value);
+    }
+    private void Start()
+    {
+        _musicSlider.value= volumeManager.musicVolume;
+        _SFXSlider.value= volumeManager.SFXVolume;
+    }
+
     public void ToggleMusic()
     {
         AudioManager.Instance.ToggleMusic();

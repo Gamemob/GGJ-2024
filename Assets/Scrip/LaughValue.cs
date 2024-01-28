@@ -11,7 +11,6 @@ public class LaughValue : MonoBehaviour
     public float CurrentLaughtValue;
     public float LaughValuedis;
     public GameObject sceneEnd;
-    public GameObject sceneEnd1;
     public int sceneNum;
     public bag bag;
     private void Awake()
@@ -31,7 +30,7 @@ public class LaughValue : MonoBehaviour
       if (CurrentLaughtValue <= 0)
         {
             AudioManager.Instance.PlayMusic("Defeat");
-            sceneNum = 5;
+            sceneNum = 7;
             sceneEnd.gameObject.SetActive(true);
             bag.items.Clear();
         }
@@ -39,7 +38,7 @@ public class LaughValue : MonoBehaviour
         {
             AudioManager.Instance.PlayMusic("Victory");
             sceneNum = SceneManager.GetActiveScene().buildIndex + 1;
-            sceneEnd1.gameObject.SetActive(true);
+            sceneEnd.gameObject.SetActive(true);
             bag.items.Clear();
         }
     }
