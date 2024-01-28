@@ -1207,6 +1207,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bag: {fileID: 11400000, guid: 8dd9c164603f8e04f94c47dac507b473, type: 2}
   changeBackTime: 3.5
+  smoke: {fileID: 1987906711}
+  sexiangjiAni: {fileID: 2046188811}
 --- !u!61 &695614472
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1569,6 +1571,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bag: {fileID: 11400000, guid: 8dd9c164603f8e04f94c47dac507b473, type: 2}
   changeBackTime: 3.5
+  smoke: {fileID: 1987906711}
+  sexiangjiAni: {fileID: 2046188811}
 --- !u!61 &754827468
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1742,6 +1746,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bag: {fileID: 11400000, guid: 8dd9c164603f8e04f94c47dac507b473, type: 2}
   changeBackTime: 3.5
+  smoke: {fileID: 1987906711}
+  sexiangjiAni: {fileID: 2046188811}
 --- !u!61 &762271806
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1867,7 +1873,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1987906714}
   m_Father: {fileID: 895958785}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1902,9 +1909,12 @@ MonoBehaviour:
   - {fileID: 6590085721642057839, guid: ac4013a6cb3dce541b811f2bc723028a, type: 3}
   - {fileID: 3561141273651261093, guid: 8f348246c8071f44f83e37fb87f75b80, type: 3}
   - {fileID: 9168153426761076120, guid: eca6756ed8412b048b83ae351d029f91, type: 3}
+  - {fileID: 6590085721642057839, guid: a79ce411a46af164d99000e1bebcf1cd, type: 3}
+  - {fileID: 6590085721642057839, guid: 6f979e373e4a3a447ab82d532c38b498, type: 3}
   randomCd: 3
-  guankaNum: 0
+  guankaNum: 2
   haveEmpty: 0
+  smokeTrans: {fileID: 1987906714}
 --- !u!1 &846693398
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,6 +2517,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bag: {fileID: 11400000, guid: 8dd9c164603f8e04f94c47dac507b473, type: 2}
   changeBackTime: 3.5
+  smoke: {fileID: 1987906711}
+  sexiangjiAni: {fileID: 2046188811}
 --- !u!61 &1040537784
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3379,6 +3391,103 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1987906711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1987906714}
+  - component: {fileID: 1987906716}
+  - component: {fileID: 1987906715}
+  - component: {fileID: 1987906717}
+  m_Layer: 0
+  m_Name: smoke
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1987906714
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987906711}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.3738072}
+  m_LocalScale: {x: 369.1791, y: 369.1791, z: 369.1791}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 780155329}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -496, y: -1}
+  m_SizeDelta: {x: 4.304, y: 4.280883}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1987906715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987906711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 374292714, guid: 671d570d04094ab408fef8d88150ecfd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1987906716
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987906711}
+  m_CullTransparentMesh: 1
+--- !u!95 &1987906717
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987906711}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3c9ceeba614daea4e81d620c57b70f96, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2011056974
 GameObject:
   m_ObjectHideFlags: 0
@@ -3421,6 +3530,7 @@ GameObject:
   - component: {fileID: 2046188810}
   - component: {fileID: 2046188809}
   - component: {fileID: 2046188808}
+  - component: {fileID: 2046188811}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3502,6 +3612,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2046188811
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046188807}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b233effeb71d7bc4e8918624251dff05, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2050322179
 GameObject:
   m_ObjectHideFlags: 0

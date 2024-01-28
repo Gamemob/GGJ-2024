@@ -7,6 +7,8 @@ public class itemOnHand : MonoBehaviour
     private SpriteRenderer itemRender;
     public bag bag;
     public float changeBackTime;//»Ö¸´Ô­À´µÄÍ¼Æ¬
+    public GameObject smoke;
+    public Animator sexiangjiAni;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,16 +43,28 @@ public class itemOnHand : MonoBehaviour
     IEnumerator ItemEffect(int Idex)
     {
         yield return new WaitForSeconds(RotateBallManager.Instance.ItemEffectTime);
+     
         if (bag.items[Idex].ChangeNum > 0)
-        {
+        {   
+            sexiangjiAni.SetTrigger("isDong");
             AudioManager.Instance.PlaySFX("La");
         }
         else if (bag.items[Idex].ChangeNum < 0)
         {
             AudioManager.Instance.PlaySFX("Em");
         }
+        if (bag.items[Idex].isSmoke)
+        {
+            smoke.gameObject.SetActive(true);
+            StartCoroutine("smokeDelete");
+        }
             LaughValue.Instance.CurrentLaughtValue += bag.items[Idex].ChangeNum;
         StartCoroutine("chagneBackSprite");
+    }
+    IEnumerator smokeDelete()
+    {
+        yield return new WaitForSeconds(5.3f);
+        smoke.gameObject.SetActive(false);
     }
     IEnumerator chagneBackSprite()
     {
