@@ -8,7 +8,7 @@ public class PauseControll : MonoBehaviour
     public GameObject PauseMenu;
     private void Awake()
     {
-        PauseMenu = GameObject.Find("ButtonPauseMenu");
+
     }
     void Start()
     {
